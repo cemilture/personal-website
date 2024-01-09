@@ -1,5 +1,5 @@
-import Image from 'next/image'
-import styles from './page.module.css'
+import Image from "next/image";
+import styles from "./page.module.css";
 
 export default function Home() {
   return (
@@ -15,7 +15,7 @@ export default function Home() {
             target="_blank"
             rel="noopener noreferrer"
           >
-            By{' '}
+            By{" "}
             <Image
               src="/vercel.svg"
               alt="Vercel Logo"
@@ -90,6 +90,18 @@ export default function Home() {
           </p>
         </a>
       </div>
+      <div>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed quos
+        eligendi odio minima impedit perferendis corporis vitae quo maiores quis
+        voluptatem cum ducimus similique non, tempore est. Nulla, vel eum. Lorem
+        ipsum dolor sit amet consectetur, adipisicing elit. Explicabo
+        repellendus laborum corrupti ad earum unde ullam itaque in dignissimos
+        cupiditate, recusandae magni inventore, obcaecati odio repellat eius nam
+        fugit vitae. Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+        Numquam repellat, quas impedit fugit ipsum dolores saepe minima, hic
+        modi excepturi nobis dicta dolore voluptatem corporis iure pariatur
+        fugiat enim iusto.
+      </div>
     </main>
-  )
+  );
 }
