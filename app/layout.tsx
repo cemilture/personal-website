@@ -10,8 +10,7 @@ import {
   FaPhone,
   FaMapMarkerAlt,
 } from "react-icons/fa";
-import profilePhoto from "../public/profile-photo.jpg";
-import logo from "../public/logo.jpg";
+import profilePhoto from "./public/profile-photo.jpg";
 import Link from "next/link";
 import Header from "./Header";
 

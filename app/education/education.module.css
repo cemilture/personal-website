@@ -1,0 +1,50 @@
+.educationContainer {
+  max-width: 800px;
+  margin: 20px;
+  padding: 20px;
+}
+.educationContainer h1 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  border-bottom-style: groove;
+}
+
+.educationItem {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  padding: 10px;
+  border: 1px outset bisque;
+  border-radius: 20px;
+  background-image: radial-gradient(
+    circle,
+    #bac4c4,
+    #bac8cc,
+    #bdccd6,
+    #c4cfdf,
+    #cfd0e5,
+    #dbcee5,
+    #e8cde0,
+    #f3ccd8,
+    #f9cbc8,
+    #f6cdb9,
+    #ead2ae,
+    #d6d8ac
+  );
+}
+
+.educationItem img {
+  width: 100px;
+  height: 100px;
+  object-fit: contain;
+  border-radius: 8px;
+  margin-right: 20px;
+}
+
+.educationItem h2 {
+  font-size: 18px;
+}
+
+.educationItem p {
+  margin: 5px 0;
+}
