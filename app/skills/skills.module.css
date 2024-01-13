@@ -5,8 +5,10 @@
 }
 
 .header {
-  border-bottom: groove;
-  border-color: floralwhite;
+  font-size: 24px;
+  margin-bottom: 20px;
+  border-bottom-style: groove;
+  text-align: left;
 }
 
 .skillContainer {
