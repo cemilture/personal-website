@@ -3,7 +3,7 @@ import Image from "next/image";
 import styles from "./about.module.css";
 import aboutImage1 from "../public/about1.jpg";
 import aboutImage2 from "../public/about2.jpg";
-import aboutImage3 from "../public/about3.jpg";
+import profilePhoto from "../public/profile-photo.jpg";
 
 const about = () => {
   return (
@@ -19,7 +19,7 @@ const about = () => {
           <h1 style={{ fontSize: "xxx-large" }}>Hi there! 👋 I'm Cemil Ture</h1>
           <Image
             className={styles.aboutImage}
-            src={aboutImage1}
+            src={profilePhoto}
             width={500}
             height={500}
             alt="Cemil Türe about"
@@ -28,7 +28,7 @@ const about = () => {
         <div style={{ display: "flex", justifyContent: "space-around" }}>
           <Image
             className={styles.aboutImage}
-            src={aboutImage2}
+            src={aboutImage1}
             width={500}
             height={500}
             alt="Cemil Türe about"
@@ -65,7 +65,7 @@ const about = () => {
         </div>
         <Image
           className={styles.aboutImage}
-          src={aboutImage3}
+          src={aboutImage2}
           width={500}
           height={500}
           alt="Cemil Türe about"

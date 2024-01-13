@@ -1,0 +1,38 @@
+.contactContainer {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.contactContainer h1 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.contactInfo {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.contactInfo div {
+  padding: 20px;
+}
+
+.contactInfo h2 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.contactInfo img {
+  width: 100%;
+  /* height: auto; */
+}
+
+.mapContainer iframe {
+  width: 100%;
+
+  border: 1px solid #ddd;
+  border-radius: 8px;
+}
