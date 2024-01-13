@@ -16,8 +16,8 @@ const Education = () => {
         <Link href="https://www.anadolu.edu.tr/en">
           <Image
             src={anadolu}
-            width={100}
-            height={100}
+            width={150}
+            height={150}
             alt="Anadolu University"
           />
         </Link>
@@ -33,8 +33,8 @@ const Education = () => {
         <Link href="https://atauni.edu.tr/en/index">
           <Image
             src={atauni}
-            width={100}
-            height={100}
+            width={150}
+            height={150}
             alt="Ataturk University"
           />
         </Link>
@@ -50,8 +50,8 @@ const Education = () => {
         <Link href="https://www.istanbul.edu.tr/en/_">
           <Image
             src={istanbul}
-            width={100}
-            height={100}
+            width={150}
+            height={150}
             alt="Istanbul University"
           />
         </Link>
@@ -65,8 +65,8 @@ const Education = () => {
         <Link href="https://www.anadolu.edu.tr/en">
           <Image
             src={anadolu}
-            width={100}
-            height={100}
+            width={150}
+            height={150}
             alt="Anadolu University"
           />
         </Link>
@@ -80,8 +80,8 @@ const Education = () => {
         <Link href="https://www.aksaray.edu.tr/?l=en">
           <Image
             src={aksaray}
-            width={100}
-            height={100}
+            width={150}
+            height={150}
             alt="Aksaray University"
           />
         </Link>
@@ -96,8 +96,8 @@ const Education = () => {
         <Link href="https://www.anadolu.edu.tr/en">
           <Image
             src={anadolu}
-            width={100}
-            height={100}
+            width={150}
+            height={150}
             alt="Anadolu University"
           />
         </Link>

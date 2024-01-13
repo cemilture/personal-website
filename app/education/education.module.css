@@ -2,6 +2,7 @@
   max-width: 800px;
   margin: 20px;
   padding: 20px;
+  text-align: left;
 }
 .educationContainer h1 {
   font-size: 24px;
@@ -13,9 +14,10 @@
   display: flex;
   align-items: center;
   margin-bottom: 20px;
-  padding: 10px;
+  padding: 25px;
   border: 1px outset bisque;
   border-radius: 20px;
+  width: 650px;
   background-image: radial-gradient(
     circle,
     #bac4c4,
@@ -34,11 +36,8 @@
 }
 
 .educationItem img {
-  width: 100px;
-  height: 100px;
   object-fit: contain;
-  border-radius: 8px;
-  margin-right: 20px;
+  margin-right: 50px;
 }
 
 .educationItem h2 {

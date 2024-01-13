@@ -1,107 +1,78 @@
+/* eslint-disable react/no-unescaped-entities */
 import Image from "next/image";
-import styles from "./page.module.css";
+import styles from "./about/about.module.css";
+import aboutImage1 from "./public/about1.jpg";
+import aboutImage2 from "./public/about2.jpg";
+import profilePhoto from "./public/profile-photo.jpg";
 
-export default function Home() {
+const about = () => {
   return (
-    <main className={styles.main}>
-      <div className={styles.description}>
-        <p>
-          Get started by editing&nbsp;
-          <code className={styles.code}>app/page.tsx</code>
-        </p>
-        <div>
-          <a
-            href="https://vercel.com?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            By{" "}
-            <Image
-              src="/vercel.svg"
-              alt="Vercel Logo"
-              className={styles.vercelLogo}
-              width={100}
-              height={24}
-              priority
-            />
-          </a>
+    <div>
+      <div>
+        <div
+          style={{
+            display: "flex",
+            justifyContent: "space-around",
+            alignItems: "center",
+          }}
+        >
+          <h1 style={{ fontSize: "xxx-large" }}>Hi there! 👋 I'm Cemil Ture</h1>
+          <Image
+            className={styles.aboutImage}
+            src={profilePhoto}
+            width={500}
+            height={500}
+            alt="Cemil Türe about"
+          />
+        </div>
+        <div style={{ display: "flex", justifyContent: "space-around" }}>
+          <Image
+            className={styles.aboutImage}
+            src={aboutImage1}
+            width={500}
+            height={500}
+            alt="Cemil Türe about"
+          />
+          <div className={styles.middleText}>
+            <p>
+              A passionate frontend developer with a knack for creating amazing
+              user experiences. My journey in the tech world revolves around
+              exploring the latest trends and turning them into functional,
+              beautiful websites.
+            </p>
+            <p>
+              I thrive in collaborative environments and believe that great
+              things happen when brilliant minds come together. Teamwork is not
+              just a skill; it's a mindset that I bring to every project.
+            </p>
+            <p>
+              My expertise lies in crafting robust web applications, and I'm
+              particularly enchanted by the power of <em>React</em> and{" "}
+              <em>Next.js</em>. These technologies fuel my creativity, enabling
+              me to build responsive, efficient, and scalable solutions.
+            </p>
+          </div>
         </div>
       </div>
-
-      <div className={styles.center}>
+      <div style={{ display: "flex", justifyContent: "space-around" }}>
+        <div className={styles.skillList}>
+          <h2>My Main Skills</h2>
+          <li>React.js</li>
+          <li>Next.js</li>
+          <li>JavaScript (ES6+)</li>
+          <li>HTML5</li>
+          <li>CSS3</li>
+        </div>
         <Image
-          className={styles.logo}
-          src="/next.svg"
-          alt="Next.js Logo"
-          width={180}
-          height={37}
-          priority
+          className={styles.aboutImage}
+          src={aboutImage2}
+          width={500}
+          height={500}
+          alt="Cemil Türe about"
         />
       </div>
-
-      <div className={styles.grid}>
-        <a
-          href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2>
-            Docs <span>-&gt;</span>
-          </h2>
-          <p>Find in-depth information about Next.js features and API.</p>
-        </a>
-
-        <a
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2>
-            Learn <span>-&gt;</span>
-          </h2>
-          <p>Learn about Next.js in an interactive course with&nbsp;quizzes!</p>
-        </a>
-
-        <a
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2>
-            Templates <span>-&gt;</span>
-          </h2>
-          <p>Explore starter templates for Next.js.</p>
-        </a>
-
-        <a
-          href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2>
-            Deploy <span>-&gt;</span>
-          </h2>
-          <p>
-            Instantly deploy your Next.js site to a shareable URL with Vercel.
-          </p>
-        </a>
-      </div>
-      <div>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed quos
-        eligendi odio minima impedit perferendis corporis vitae quo maiores quis
-        voluptatem cum ducimus similique non, tempore est. Nulla, vel eum. Lorem
-        ipsum dolor sit amet consectetur, adipisicing elit. Explicabo
-        repellendus laborum corrupti ad earum unde ullam itaque in dignissimos
-        cupiditate, recusandae magni inventore, obcaecati odio repellat eius nam
-        fugit vitae. Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-        Numquam repellat, quas impedit fugit ipsum dolores saepe minima, hic
-        modi excepturi nobis dicta dolore voluptatem corporis iure pariatur
-        fugiat enim iusto.
-      </div>
-    </main>
+    </div>
   );
-}
+};
+
+export default about;
