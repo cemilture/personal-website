@@ -65,6 +65,10 @@
   border-radius: 10%;
 }
 
+.titleContainer {
+  margin: 15px;
+}
+
 .title {
   margin-top: -10px;
   border: 1px solid lightgray;

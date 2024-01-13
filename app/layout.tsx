@@ -40,7 +40,7 @@ export default function RootLayout({
                 width={300}
                 alt="My Photo"
               />{" "}
-              <div>
+              <div className={styles.titleContainer}>
                 <h2>Cemil Türe</h2>
                 <p className={styles.title}>Frontend Developer</p>
               </div>
