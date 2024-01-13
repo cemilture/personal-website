@@ -1,0 +1,16 @@
+.aboutImage {
+  border-radius: 30px;
+  margin: 15px;
+}
+
+.middleText {
+  align-self: center;
+  max-width: 500px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.skillList {
+  align-self: center;
+  font-weight: bold;
+}
