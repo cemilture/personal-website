@@ -1,0 +1,39 @@
+.mainDiv {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 30px;
+}
+
+.header {
+  border-bottom: groove;
+  border-color: floralwhite;
+}
+
+.skillContainer {
+  margin: 30px;
+  padding: 30px;
+  background-image: radial-gradient(
+    circle,
+    #bac4c4,
+    #bac8cc,
+    #bdccd6,
+    #c4cfdf,
+    #cfd0e5,
+    #dbcee5,
+    #e8cde0,
+    #f3ccd8,
+    #f9cbc8,
+    #f6cdb9,
+    #ead2ae,
+    #d6d8ac
+  );
+  border: 1px solid #ddd;
+  border-radius: 30px;
+  object-fit: contain;
+}
+
+.title {
+  text-align: center;
+  font-weight: bold;
+  font-size: x-large;
+}
