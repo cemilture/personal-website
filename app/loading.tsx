@@ -1,5 +1,5 @@
 import Image from "next/image";
-import loadingImage from "./public/loadingImage.gif";
+import loadingImage from "./public/loading.svg";
 
 const loading = () => {
   return <Image alt="loading" src={loadingImage} />;
