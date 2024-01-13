@@ -91,54 +91,6 @@ const Projects = () => {
         </Link>
         <h2>Qrcode for my github profile</h2>
       </div>
-
-      <div className={styles.projectCard}>
-        <Link
-          href="https://dashboard-courses-task.vercel.app/"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            src={adminPanel}
-            width={150}
-            height={150}
-            alt="Cemil Türe Admin panel"
-          />
-        </Link>
-        <h2>Admin panel, Dashboard,CRUD operations</h2>
-      </div>
-
-      <div className={styles.projectCard}>
-        <Link
-          href="https://dashboard-courses-task.vercel.app/"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            src={adminPanel}
-            width={150}
-            height={150}
-            alt="Cemil Türe Admin panel"
-          />
-        </Link>
-        <h2>Admin panel, Dashboard,CRUD operations</h2>
-      </div>
-
-      <div className={styles.projectCard}>
-        <Link
-          href="https://dashboard-courses-task.vercel.app/"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            src={adminPanel}
-            width={150}
-            height={150}
-            alt="Cemil Türe Admin panel"
-          />
-        </Link>
-        <h2>Admin panel, Dashboard,CRUD operations</h2>
-      </div>
     </div>
   );
 };
