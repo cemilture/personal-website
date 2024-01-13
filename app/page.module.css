@@ -27,6 +27,15 @@
 .belowHeader {
   display: flex;
   gap: 50px;
+  @media (max-width: 1200px) {
+    display: flex;
+    flex-direction: column;
+    .profileContainer {
+      display: flex;
+      flex-direction: row;
+      position: static;
+    }
+  }
 }
 
 .profileContainer {
@@ -47,9 +56,12 @@
     rgba(9, 121, 93, 1) 22%,
     rgba(0, 212, 255, 1) 100%
   );
+  @media (max-width: 1200px) {
+    display: flex;
+  }
 }
 
-.profileImage {
+.profileContainer .profileImage {
   border-radius: 10%;
 }
 

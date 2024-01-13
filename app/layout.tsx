@@ -31,27 +31,6 @@ export default function RootLayout({
       <body className={inter.className}>
         <div className={styles.mainDiv}>
           <Header />
-
-          {/* <div className={styles.header}>
-            <div className={styles.logo}>
-              <Link href="/">
-                <Image
-                  className={styles.logo}
-                  src={logo}
-                  alt="Cemil Ture's logo"
-                  height={75}
-                  width={75}
-                />
-              </Link>
-            </div>
-            <div className={styles.navigation}>
-              <Link className={`link ${pathname === '/about' ? 'active' : ''}`} href="/about">About</Link>
-              <Link href="/education">Education</Link>
-              <Link href="/projects">Projects</Link>
-              <Link href="/skills">Skills</Link>
-              <Link href="/contact">Contact</Link>
-            </div>
-          </div> */}
           <div className={styles.belowHeader}>
             <div className={styles.profileContainer}>
               <Image
@@ -60,9 +39,11 @@ export default function RootLayout({
                 height={200}
                 width={300}
                 alt="My Photo"
-              />
-              <h2>Cemil Türe</h2>
-              <p className={styles.title}>Frontend Developer</p>
+              />{" "}
+              <div>
+                <h2>Cemil Türe</h2>
+                <p className={styles.title}>Frontend Developer</p>
+              </div>
               <div className={styles.profileInfo}>
                 <div className={styles.info}>
                   <p className={styles.infoIcon}>
