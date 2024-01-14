@@ -4,7 +4,12 @@
     "Fira Mono", "Droid Sans Mono", "Courier New", monospace;
 }
 
+html {
+  font-size: calc(60% + 0.8vmin);
+}
+
 body {
+  margin: 0 auto;
   background-image: radial-gradient(
     circle,
     #bac4c4,

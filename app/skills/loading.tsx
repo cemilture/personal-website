@@ -1,8 +1,7 @@
-import Image from "next/image";
-import loadingImage from "../public/loading.svg";
+import React from "react";
 
 const loading = () => {
-  return <Image alt="loading" src={loadingImage} />;
+  return <div>...loading</div>;
 };
 
 export default loading;
