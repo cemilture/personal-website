@@ -24,6 +24,14 @@
   border-radius: 40px;
 }
 
+.navigation {
+  @media (max-width: 800px) {
+    /* Hide the Navigation component for screens with a maximum width of 800px or smaller */
+
+    display: none;
+  }
+}
+
 .belowHeader {
   display: flex;
   gap: 50px;
@@ -58,6 +66,10 @@
   );
   @media (max-width: 1200px) {
     display: flex;
+  }
+  @media (max-width: 820px) {
+    display: flex;
+    flex-direction: row;
   }
 }
 
@@ -156,3 +168,65 @@
 .active:hover {
   border: inset;
 }
+.mobileMenu {
+  display: none;
+  background-image: linear-gradient(
+    135deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(9, 121, 93, 1) 22%,
+    rgba(0, 212, 255, 1) 100%
+  );
+  border: none;
+  border-radius: 8px;
+  padding: 10px;
+  height: max-content !important;
+  @media (max-width: 800px) {
+    /* Display the button on screens with a maximum width of 800px */
+    display: block;
+  }
+}
+
+.mobileMenuButton {
+  display: none;
+  position: relative;
+  width: 50px;
+  padding: 10px;
+  @media (max-width: 800px) {
+    /* Display the button on screens with a maximum width of 800px */
+    display: block;
+  }
+}
+
+.mobileMenu a {
+  text-decoration: none;
+  color: black;
+  font-weight: bolder;
+  font-size: 16px;
+  margin: 20px 10px;
+  cursor: pointer;
+  padding: 10px;
+  border: outset transparent;
+  background-image: radial-gradient(
+    circle,
+    rgba(238, 174, 202, 1) 0%,
+    rgba(148, 187, 233, 1) 100%
+  );
+  border-radius: 10px;
+}
+
+.mobileMenu a:hover {
+  border: inset aquamarine;
+}
+
+/* .mobileMenu button {
+  width: max-content;
+  position: absolute;
+  right: 60px;
+  bottom: 30px;
+  width: 50px;
+  height: 50px;
+} */
+/* 
+.mobileMenuIcon {
+  width: 50px;
+} */

@@ -17,8 +17,8 @@ import Header from "./Header";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Cemil Ture",
-  description: "Cemil Ture's personal website",
+  title: "Cemil TURE",
+  description: "Cemil TURE's personal website",
 };
 
 export default function RootLayout({
