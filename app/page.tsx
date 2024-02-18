@@ -29,22 +29,20 @@ const about = () => {
           />
           <div className={styles.middleText}>
             <p>
-              A passionate frontend developer with a knack for creating amazing
-              user experiences. My journey in the tech world revolves around
-              exploring the latest trends and turning them into functional,
-              beautiful websites.
+              A passionate frontend developer with a solid foundation in HTML,
+              CSS, and JavaScript. My expertise extends to TypeScript, React,
+              and Next.js, allowing me to create dynamic and responsive user
+              interfaces. Armed with a strong background in computer science, I
+              excel in problem-solving and efficient error handling.
             </p>
             <p>
-              I thrive in collaborative environments and believe that great
-              things happen when brilliant minds come together. Teamwork is not
-              just a skill; it's a mindset that I bring to every project.
+              I thrive in collaborative environments, leveraging effective
+              communication and teamwork to bring innovative ideas to life.
+              Whether it's crafting pixel-perfect designs or optimizing user
+              experiences, I'm dedicated to delivering high quality solutions
+              that meet both user and business needs.
             </p>
-            <p>
-              My expertise lies in crafting robust web applications, and I'm
-              particularly enchanted by the power of <em>React</em> and{" "}
-              <em>Next.js</em>. These technologies fuel my creativity, enabling
-              me to build responsive, efficient, and scalable solutions.
-            </p>
+            <p>Let's build something amazing together!</p>
           </div>
         </div>
       </div>

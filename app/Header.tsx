@@ -8,13 +8,14 @@ import { usePathname } from "next/navigation";
 import { useState } from "react";
 import { slide as Menu } from "react-burger-menu";
 import { IoMenu } from "react-icons/io5";
+import { FaWindowClose } from "react-icons/fa";
 
 const Header = () => {
   const pathname = usePathname();
   const [isMobileMenuOpen, setMobileMenuOpen] = useState(false);
 
-  const toggleMobileMenu = () => {
-    !setMobileMenuOpen;
+  const closeMobileMenu = () => {
+    setMobileMenuOpen(false);
   };
 
   return (
@@ -68,13 +69,6 @@ const Header = () => {
         </Link>
       </div>
 
-      {/* Button for toggling mobile menu */}
-      {/* <div className={styles.mobileMenuButton} onClick={toggleMobileMenu}>
-        <div />
-        <div />
-        <div />
-      </div> */}
-
       {/* Mobile menu */}
       <div className={styles.mobileMenuDiv}>
         <Menu
@@ -83,21 +77,28 @@ const Header = () => {
           right
           width={"150px"}
           isOpen={isMobileMenuOpen}
-          customBurgerIcon={<IoMenu className={styles.mobileMenuIcon} />}
+          onStateChange={(state) => setMobileMenuOpen(state.isOpen)}
+          customBurgerIcon={
+            isMobileMenuOpen ? (
+              <FaWindowClose className={styles.mobileMenuIcon} />
+            ) : (
+              <IoMenu className={styles.mobileMenuIcon} />
+            )
+          }
         >
-          <Link href="/" onClick={toggleMobileMenu}>
+          <Link href="/" onClick={closeMobileMenu}>
             About
           </Link>
-          <Link href="/education" onClick={toggleMobileMenu}>
+          <Link href="/education" onClick={closeMobileMenu}>
             Education
           </Link>
-          <Link href="/projects" onClick={toggleMobileMenu}>
+          <Link href="/projects" onClick={closeMobileMenu}>
             Projects
           </Link>
-          <Link href="/skills" onClick={toggleMobileMenu}>
+          <Link href="/skills" onClick={closeMobileMenu}>
             Skills
           </Link>
-          <Link href="/contact" onClick={toggleMobileMenu}>
+          <Link href="/contact" onClick={closeMobileMenu}>
             Contact
           </Link>
         </Menu>
