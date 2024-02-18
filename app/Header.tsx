@@ -76,30 +76,32 @@ const Header = () => {
       </div> */}
 
       {/* Mobile menu */}
-      <Menu
-        menuClassName={styles.mobileMenu}
-        burgerButtonClassName={styles.mobileMenuButton}
-        right
-        width={"150px"}
-        isOpen={isMobileMenuOpen}
-        customBurgerIcon={<IoMenu className={styles.mobileMenuIcon} />}
-      >
-        <Link href="/about" onClick={toggleMobileMenu}>
-          About
-        </Link>
-        <Link href="/education" onClick={toggleMobileMenu}>
-          Education
-        </Link>
-        <Link href="/projects" onClick={toggleMobileMenu}>
-          Projects
-        </Link>
-        <Link href="/skills" onClick={toggleMobileMenu}>
-          Skills
-        </Link>
-        <Link href="/contact" onClick={toggleMobileMenu}>
-          Contact
-        </Link>
-      </Menu>
+      <div className={styles.mobileMenuDiv}>
+        <Menu
+          menuClassName={styles.mobileMenu}
+          burgerButtonClassName={styles.mobileMenuButton}
+          right
+          width={"150px"}
+          isOpen={isMobileMenuOpen}
+          customBurgerIcon={<IoMenu className={styles.mobileMenuIcon} />}
+        >
+          <Link href="/about" onClick={toggleMobileMenu}>
+            About
+          </Link>
+          <Link href="/education" onClick={toggleMobileMenu}>
+            Education
+          </Link>
+          <Link href="/projects" onClick={toggleMobileMenu}>
+            Projects
+          </Link>
+          <Link href="/skills" onClick={toggleMobileMenu}>
+            Skills
+          </Link>
+          <Link href="/contact" onClick={toggleMobileMenu}>
+            Contact
+          </Link>
+        </Menu>
+      </div>
     </div>
   );
 };
