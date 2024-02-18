@@ -17,8 +17,8 @@ import Header from "./Header";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Cemil TURE",
-  description: "Cemil TURE's personal website",
+  title: "Cemil TÜRE",
+  description: "Cemil TÜRE's personal website",
 };
 
 export default function RootLayout({
@@ -38,7 +38,7 @@ export default function RootLayout({
                 src={profilePhoto}
                 height={200}
                 width={300}
-                alt="My Photo"
+                alt="Cemil TÜRE's Photo"
               />{" "}
               <div className={styles.titleContainer}>
                 <h2>Cemil Türe</h2>

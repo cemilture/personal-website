@@ -7,22 +7,16 @@ import profilePhoto from "../public/profile-photo.jpg";
 
 const about = () => {
   return (
-    <div>
+    <div className={styles.mainDiv}>
       <div>
-        <div
-          style={{
-            display: "flex",
-            justifyContent: "space-around",
-            alignItems: "center",
-          }}
-        >
-          <h1 style={{ fontSize: "xxx-large" }}>Hi there! 👋 I'm Cemil Ture</h1>
+        <div className={styles.firstDiv}>
+          <h1 style={{ fontSize: "xxx-large" }}>Hi there! 👋 I'm Cemil TÜRE</h1>
           <Image
             className={styles.aboutImage}
             src={profilePhoto}
             width={500}
             height={500}
-            alt="Cemil Türe about"
+            alt="Cemil TÜRE about"
           />
         </div>
         <div style={{ display: "flex", justifyContent: "space-around" }}>
@@ -31,7 +25,7 @@ const about = () => {
             src={aboutImage1}
             width={500}
             height={500}
-            alt="Cemil Türe about"
+            alt="Cemil TÜRE about"
           />
           <div className={styles.middleText}>
             <p>
@@ -68,7 +62,7 @@ const about = () => {
           src={aboutImage2}
           width={500}
           height={500}
-          alt="Cemil Türe about"
+          alt="Cemil TÜRE about"
         />
       </div>
     </div>

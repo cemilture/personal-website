@@ -1,37 +1,31 @@
 /* eslint-disable react/no-unescaped-entities */
 import Image from "next/image";
-import styles from "./about/about.module.css";
+import styles from "./about.module.css";
 import aboutImage1 from "./public/about1.jpg";
 import aboutImage2 from "./public/about2.jpg";
 import profilePhoto from "./public/profile-photo.jpg";
 
 const about = () => {
   return (
-    <div>
+    <div className={styles.mainDiv}>
       <div>
-        <div
-          style={{
-            display: "flex",
-            justifyContent: "space-around",
-            alignItems: "center",
-          }}
-        >
-          <h1 style={{ fontSize: "xxx-large" }}>Hi there! 👋 I'm Cemil Ture</h1>
+        <div className={styles.firstDiv}>
+          <h1 style={{ fontSize: "xxx-large" }}>Hi there! 👋 I'm Cemil TÜRE</h1>
           <Image
             className={styles.aboutImage}
             src={profilePhoto}
-            width={500}
-            height={500}
-            alt="Cemil Türe about"
+            width={350}
+            height={350}
+            alt="Cemil TÜRE about"
           />
         </div>
-        <div style={{ display: "flex", justifyContent: "space-around" }}>
+        <div className={styles.secondDiv}>
           <Image
             className={styles.aboutImage}
             src={aboutImage1}
-            width={500}
-            height={500}
-            alt="Cemil Türe about"
+            width={350}
+            height={350}
+            alt="Cemil TÜRE about"
           />
           <div className={styles.middleText}>
             <p>
@@ -54,7 +48,7 @@ const about = () => {
           </div>
         </div>
       </div>
-      <div style={{ display: "flex", justifyContent: "space-around" }}>
+      <div className={styles.thirdDiv}>
         <div className={styles.skillList}>
           <h2>My Main Skills</h2>
           <li>React.js</li>
@@ -66,9 +60,9 @@ const about = () => {
         <Image
           className={styles.aboutImage}
           src={aboutImage2}
-          width={500}
-          height={500}
-          alt="Cemil Türe about"
+          width={350}
+          height={350}
+          alt="Cemil TÜRE about"
         />
       </div>
     </div>

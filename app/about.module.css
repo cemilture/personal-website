@@ -1,0 +1,59 @@
+.mainDiv {
+  align-items: center;
+}
+/* .mainDiv img {
+  object-fit: contain;
+  width: 100%;
+  position: relative;
+  height: unset;
+} */
+
+.firstDiv {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  @media (max-width: 1000px) {
+    flex-direction: column;
+  }
+}
+
+.secondDiv {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  @media (max-width: 1000px) {
+    flex-direction: column-reverse;
+  }
+}
+
+.thirdDiv {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  @media (max-width: 1000px) {
+    flex-direction: column;
+  }
+}
+
+.aboutImage {
+  border-radius: 30px;
+  margin: 15px;
+}
+
+.middleText {
+  align-self: center;
+  max-width: 500px;
+  text-align: center;
+  font-weight: bold;
+  font-size: large;
+}
+
+.skillList {
+  align-self: center;
+  font-weight: bold;
+  font-size: larger;
+  text-align: left;
+  @media (max-width: 1000px) {
+    margin-bottom: 15px;
+  }
+}

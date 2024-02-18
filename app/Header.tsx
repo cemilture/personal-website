@@ -31,8 +31,8 @@ const Header = () => {
 
       <div className={styles.navigation}>
         <Link
-          className={pathname === "/about" ? styles.active : styles.headerLink}
-          href="/about"
+          className={pathname === "/" ? styles.active : styles.headerLink}
+          href="/"
         >
           About
         </Link>
@@ -85,7 +85,7 @@ const Header = () => {
           isOpen={isMobileMenuOpen}
           customBurgerIcon={<IoMenu className={styles.mobileMenuIcon} />}
         >
-          <Link href="/about" onClick={toggleMobileMenu}>
+          <Link href="/" onClick={toggleMobileMenu}>
             About
           </Link>
           <Link href="/education" onClick={toggleMobileMenu}>
