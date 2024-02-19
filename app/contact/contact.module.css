@@ -4,6 +4,14 @@
   padding: 20px;
 }
 
+.contactQr {
+  display: flex;
+  @media (max-width: 900px) {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
 .contactContainer h1 {
   font-size: 24px;
   margin-bottom: 20px;
@@ -27,12 +35,14 @@
 
 .contactInfo img {
   width: 100%;
-  /* height: auto; */
+  height: auto;
+  @media (max-width: 500px) {
+    width: 250px;
+  }
 }
 
 .mapContainer iframe {
   width: 100%;
-
   border: 1px solid #ddd;
   border-radius: 8px;
 }

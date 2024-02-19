@@ -8,7 +8,7 @@ const Contact = () => {
   return (
     <div className={styles.contactContainer}>
       <h1>Contact</h1>
-      <div style={{ display: "flex" }}>
+      <div className={styles.contactQr}>
         <div className={styles.contactInfo}>
           <div>
             <h2>
