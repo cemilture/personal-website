@@ -2,7 +2,7 @@
   max-width: 800px;
   margin: 20px;
   padding: 20px;
-  text-align: left;
+  text-align: center;
 }
 .educationContainer h1 {
   font-size: 24px;
@@ -13,11 +13,12 @@
 .educationItem {
   display: flex;
   align-items: center;
+
   margin-bottom: 20px;
-  padding: 25px;
+  padding: 20px 10px;
   border: 1px outset bisque;
   border-radius: 20px;
-  width: 650px;
+  width: 100%;
   background-image: radial-gradient(
     circle,
     #bac4c4,
@@ -35,15 +36,31 @@
   );
 }
 
+.eduImage {
+  margin-left: 5%;
+  margin-right: 15%;
+  @media (max-width: 450px) {
+    margin-right: 10%;
+  }
+}
+
+.eduText {
+  margin-right: 30%;
+}
+
+.eduTextAbnormal {
+  margin-left: 5%;
+  @media (max-width: 450px) {
+    margin-left: 0;
+  }
+}
+
 .educationItem img {
   object-fit: contain;
-  margin-right: 50px;
+
+  /* margin-right: 50px; */
 }
 
-.educationItem h2 {
-  font-size: 18px;
-}
-
-.educationItem p {
+/* .educationItem p {
   margin: 5px 0;
-}
+} */

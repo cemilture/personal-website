@@ -132,6 +132,7 @@
   border-radius: 30px;
   padding: 20px;
   margin: 15px;
+  width: -webkit-fill-available;
   height: 100%;
   text-align: -webkit-center;
 }

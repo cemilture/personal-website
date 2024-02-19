@@ -17,7 +17,7 @@ import Header from "./Header";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Cemil TÜRE",
+  title: "Cemil TÜRE Personel Website",
   description: "Cemil TÜRE's personal website",
 };
 

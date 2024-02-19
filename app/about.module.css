@@ -1,12 +1,6 @@
 .mainDiv {
   align-items: center;
 }
-/* .mainDiv img {
-  object-fit: contain;
-  width: 100%;
-  position: relative;
-  height: unset;
-} */
 
 .firstDiv {
   display: flex;

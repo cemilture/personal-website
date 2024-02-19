@@ -13,98 +13,109 @@ const Education = () => {
       <h1>Education</h1>
 
       <div className={styles.educationItem}>
-        <Link href="https://www.anadolu.edu.tr/en">
-          <Image
-            src={anadolu}
-            width={150}
-            height={150}
-            alt="Anadolu University"
-          />
-        </Link>
+        <div className={styles.eduImage}>
+          <Link href="https://www.anadolu.edu.tr/en">
+            <Image
+              src={anadolu}
+              width={100}
+              height={100}
+              alt="Anadolu University"
+            />
+          </Link>
+        </div>
 
-        <div>
+        <div className={styles.eduText}>
           <h2>Anadolu University</h2>
-          <p>Bachelor's degree, Management Information Systems</p>
-          <p>2018 - 2021</p>
+          <h3>Bachelor's degree, Management Information Systems</h3>
+          <h4>2018 - 2021</h4>
         </div>
       </div>
 
       <div className={styles.educationItem}>
-        <Link href="https://atauni.edu.tr/en/index">
-          <Image
-            src={atauni}
-            width={150}
-            height={150}
-            alt="Ataturk University"
-          />
-        </Link>
-
-        <div>
+        <div className={styles.eduImage}>
+          <Link href="https://atauni.edu.tr/en/index">
+            <Image
+              src={atauni}
+              width={100}
+              height={100}
+              alt="Ataturk University"
+            />
+          </Link>
+        </div>
+        <div className={styles.eduText}>
           <h2>Atatürk University</h2>
-          <p>Associate's degree, Computer Programming</p>
-          <p>2021 - 2023</p>
+          <h3>Associate's degree, Computer Programming</h3>
+          <h4>2021 - 2023</h4>
         </div>
       </div>
 
       <div className={styles.educationItem}>
-        <Link href="https://www.istanbul.edu.tr/en/_">
-          <Image
-            src={istanbul}
-            width={150}
-            height={150}
-            alt="Istanbul University"
-          />
-        </Link>
-        <div>
+        <div className={styles.eduImage}>
+          <Link href="https://www.istanbul.edu.tr/en/_">
+            <Image
+              src={istanbul}
+              width={100}
+              height={100}
+              alt="Istanbul University"
+            />
+          </Link>
+        </div>
+        <div className={styles.eduTextAbnormal}>
           <h2>Istanbul University</h2>
-          <p>Bachelor's degree, Law</p>
-          <p>2017 - Present</p>
+          <h3>Bachelor's degree, Law</h3>
+          <h4>2017 - Present</h4>
         </div>
       </div>
       <div className={styles.educationItem}>
-        <Link href="https://www.anadolu.edu.tr/en">
-          <Image
-            src={anadolu}
-            width={150}
-            height={150}
-            alt="Anadolu University"
-          />
-        </Link>
-        <div>
+        <div className={styles.eduImage}>
+          <Link href="https://www.anadolu.edu.tr/en">
+            <Image
+              src={anadolu}
+              width={100}
+              height={100}
+              alt="Anadolu University"
+            />
+          </Link>
+        </div>
+        <div className={styles.eduText}>
           <h2>Anadolu University</h2>
-          <p>Associate's degree, Web Design And Development</p>
-          <p>2016 - 2018</p>
+          <h3>Associate's degree, Web Design And Development</h3>
+          <h4>2016 - 2018</h4>
         </div>
       </div>
       <div className={styles.educationItem}>
-        <Link href="https://www.aksaray.edu.tr/?l=en">
-          <Image
-            src={aksaray}
-            width={150}
-            height={150}
-            alt="Aksaray University"
-          />
-        </Link>
-        <div>
+        <div className={styles.eduImage}>
+          <Link href="https://www.aksaray.edu.tr/?l=en">
+            <Image
+              src={aksaray}
+              width={100}
+              height={100}
+              alt="Aksaray University"
+            />
+          </Link>
+        </div>
+        <div className={styles.eduText}>
           <h2>Aksaray University</h2>
-          <p>Bachelor's degree, Psychological Counseling And Guidance</p>
-          <p>2012 - 2016</p>
+          <h3>Bachelor's degree, Psychological Counseling And Guidance</h3>
+          <h4>2012 - 2016</h4>
         </div>
       </div>
 
       <div className={styles.educationItem}>
-        <Link href="https://www.anadolu.edu.tr/en">
-          <Image
-            src={anadolu}
-            width={150}
-            height={150}
-            alt="Anadolu University"
-          />
-        </Link>
-        <div>
+        <div className={styles.eduImage}>
+          <Link href="https://www.anadolu.edu.tr/en">
+            <Image
+              src={anadolu}
+              width={100}
+              height={100}
+              alt="Anadolu University"
+            />
+          </Link>
+        </div>
+        <div className={styles.eduTextAbnormal}>
           <h2>Anadolu University</h2>
-          <p>Associate's degree, Justice</p>
-          <p>2013 - 2015</p>
+          <h3>Associate's degree, Justice</h3>
+          <h4>2013 - 2015</h4>
         </div>
       </div>
     </div>

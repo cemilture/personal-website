@@ -38,12 +38,16 @@
 .projectCard img {
   object-fit: contain;
   border-radius: 8px;
+  @media (max-width: 501px) {
+    width: 100px;
+  }
 }
 
 .projectCard h2 {
   font-size: 18px;
   margin-bottom: 10px;
   padding: 20px;
+  overflow-wrap: anywhere;
 }
 
 .projectCard a {

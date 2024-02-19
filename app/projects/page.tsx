@@ -6,11 +6,45 @@ import randomQuote from "./projectImages/random-quote-axios.jpg";
 import ricknmorty from "./projectImages/ricknmorty.jpg";
 import coffee from "./projectImages/coffee.jpg";
 import qrcode from "./projectImages/qrcode.jpg";
+import morkelebek from "./projectImages/morkelebek.jpg";
+import morkampus from "./projectImages/morkampus.jpg";
 
 const Projects = () => {
   return (
     <div className={styles.projectsContainer}>
       <h1>Projects</h1>
+
+      <div className={styles.projectCard}>
+        <Link
+          href="https://morkelebekajans.com/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <Image
+            src={morkelebek}
+            width={250}
+            height={250}
+            alt="Cemil Türe, Mor Kelebek Ajans"
+          />
+        </Link>
+        <h2>Mor Kelebek Ajans Website</h2>
+      </div>
+
+      <div className={styles.projectCard}>
+        <Link
+          href="https://www.morkampus.com/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <Image
+            src={morkampus}
+            width={250}
+            height={250}
+            alt="Cemil Türe, Mor Kampüs"
+          />
+        </Link>
+        <h2>Mor Kampus Website</h2>
+      </div>
 
       <div className={styles.projectCard}>
         <Link
@@ -20,12 +54,12 @@ const Projects = () => {
         >
           <Image
             src={adminPanel}
-            width={150}
-            height={150}
+            width={250}
+            height={250}
             alt="Cemil Türe, Admin panel"
           />
         </Link>
-        <h2>Admin panel, Dashboard,CRUD operations</h2>
+        <h2>Admin panel, Dashboard, CRUD operations</h2>
       </div>
 
       <div className={styles.projectCard}>
@@ -36,8 +70,8 @@ const Projects = () => {
         >
           <Image
             src={ricknmorty}
-            width={150}
-            height={150}
+            width={250}
+            height={250}
             alt="Cemil Türe, Rick and Morty Character Search"
           />
         </Link>
@@ -52,8 +86,8 @@ const Projects = () => {
         >
           <Image
             src={randomQuote}
-            width={150}
-            height={150}
+            width={250}
+            height={250}
             alt="Cemil Türe, random quote"
           />
         </Link>
@@ -68,8 +102,8 @@ const Projects = () => {
         >
           <Image
             src={coffee}
-            width={150}
-            height={150}
+            width={250}
+            height={250}
             alt="Cemil Türe, coffee search"
           />
         </Link>
@@ -84,9 +118,10 @@ const Projects = () => {
         >
           <Image
             src={qrcode}
-            width={150}
-            height={150}
+            width={250}
+            height={250}
             alt="Cemil Türe, qrcode github"
+            sizes="(max-width: 500px) 50vw"
           />
         </Link>
         <h2>Qrcode for my github profile</h2>
