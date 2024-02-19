@@ -11,6 +11,7 @@ import material from "./skillsImage/materialui.png";
 import bootstrap from "./skillsImage/bootstrap.png";
 import tailwind from "./skillsImage/tailwind.png";
 import vercel from "./skillsImage/vercel.svg";
+import vite from "./skillsImage/vite.svg";
 
 const Skills = () => {
   return (
@@ -44,6 +45,10 @@ const Skills = () => {
         <div className={styles.skillContainer}>
           <Image src={redux} alt="Redux" width={200} height={200} />{" "}
           <p className={styles.title}>Redux</p>
+        </div>
+        <div className={styles.skillContainer}>
+          <Image src={vite} alt="Vite" width={200} height={200} />{" "}
+          <p className={styles.title}>Vite</p>
         </div>
         <div className={styles.skillContainer}>
           <Image src={material} alt="Material-UI" width={200} height={200} />

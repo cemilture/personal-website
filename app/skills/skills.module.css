@@ -2,6 +2,16 @@
   display: flex;
   flex-wrap: wrap;
   margin: 30px;
+  justify-content: center;
+  @media (max-width: 700px) {
+    margin: 20px -5px;
+  }
+  @media (max-width: 500px) {
+    margin: 15px -15px;
+  }
+  @media (max-width: 400px) {
+    margin: 10px -20px;
+  }
 }
 
 .header {
@@ -32,14 +42,42 @@
   border: 1px solid #ddd;
   border-radius: 30px;
   object-fit: contain;
+  @media (max-width: 700px) {
+    margin: 15px;
+    padding: 15px;
+  }
+  @media (max-width: 500px) {
+    margin: 10px;
+    padding: 10px;
+  }
+  @media (max-width: 400px) {
+    margin: 4px;
+    padding: 7px;
+  }
 }
 
 .skillContainer img {
   object-fit: contain;
+  @media (max-width: 800px) {
+    width: 150px;
+  }
+  @media (max-width: 700px) {
+    width: 100px;
+  }
+  @media (max-width: 650px) {
+    width: 90px;
+  }
+  /* @media (max-width: 500px) {
+    width: 50px;
+  } */
 }
 
 .title {
   text-align: center;
   font-weight: bold;
   font-size: x-large;
+  @media (max-width: 700px) {
+    margin: -20px 0 0 0;
+    font-size: large;
+  }
 }
