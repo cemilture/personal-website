@@ -1,4 +1,4 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+This is my personal website, i created with next js and typescript. Fully responsive design. If you want to take a look: (https://cemilture.vercel.app/) 
 
 ## Getting Started
 
